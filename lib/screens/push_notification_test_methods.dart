@@ -3,7 +3,7 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:meta/meta.dart';
 import 'dart:math' as math;
 
-/// A function to fire the local daily notifications
+/// * A function to fire the local daily notifications
 Future showNotification3({
   @required final FlutterLocalNotificationsPlugin notification,
   @required final int channelId,

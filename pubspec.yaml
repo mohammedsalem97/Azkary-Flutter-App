@@ -11,39 +11,41 @@ description: A new Flutter project.
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-version: 1.0.0+1
+version: 2.0.0+2 #was 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.2.2 <3.0.0"
 
 dependencies:
-
   flutter:
     sdk: flutter
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
-  flutter_local_notifications: ^0.6.0
-  path_provider: ^0.5.0+1
+  flutter_local_notifications: ^0.6.0 #^0.9.0+1
+  flutter_localizations:
+    sdk: flutter
+  path_provider: ^1.3.0
+  shared_preferences: "^0.4.2"
   shimmer:
-  overlay_support:
-
-
-
-
+  share:
+  scoped_model: ^1.0.1
+  firebase_messaging: ^5.0.5 #^4.0.0+1
+  url_launcher:
+  http:
+  geopoint_location: ^0.4.0
+  font_awesome_flutter: 
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
 
 # The following section is specific to Flutter.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
@@ -65,15 +67,15 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: Tajawal
+    - family: AMaster
       fonts:
-        - asset: fonts/Tajawal-Medium.ttf
-        - asset: fonts/Tajawal-Bold.ttf
-    - family: Poppins
+        - asset: fonts/Abdo-Master-normal.otf
+    - family: FJ
       fonts:
-        - asset: fonts/Poppins-Bold.ttf
-        - asset: fonts/Poppins-Light.ttf
-        - asset: fonts/Poppins-Medium.ttf
+        - asset: fonts\flat-jooza-regular.ttf
+    - family: GESS
+      fonts:
+        - asset: fonts\GE SS Two_1.otf
   #         style: italic
   #   - family: Trajan Pro
   #     fonts:
